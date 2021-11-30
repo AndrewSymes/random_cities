@@ -1,0 +1,23 @@
+.navbar {
+    background: none;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+#city-element {
+    text-align: center;
+    color: white;
+    font-size: 400%;
+    text-shadow: 2px 2px 8px black;
+}
+
+#local-time {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 10px black;
+}

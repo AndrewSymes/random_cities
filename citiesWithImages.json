@@ -1,0 +1,41 @@
+[{
+        "name": "Sydney",
+        "country": "Australia",
+        "image": "sydney.jpg",
+        "night_image": "sydney_night.jpg",
+        "lat": "33.8688",
+        "lon": "151.2093"
+    },
+    {
+        "name": "New York City",
+        "country": "United States",
+        "image": "new_york_city.jpg",
+        "night_image": "new_york_city_night.jpeg",
+        "lat": "40.7128",
+        "lon": "74.0060"
+    },
+    {
+        "name": "Santiago",
+        "country": "Chile",
+        "image": "santiago.jpg",
+        "night_image": "santiago_night.jpg",
+        "lat": "33.4489",
+        "lon": "70.6693"
+    },
+    {
+        "name": "Paris",
+        "country": "France",
+        "image": "paris.jpg",
+        "night_image": "paris_night.jpg",
+        "lat": "48.8566",
+        "lon": "2.3522"
+    },
+    {
+        "name": "Tokyo",
+        "country": "Japan",
+        "image": "tokyo.jpg",
+        "night_image": "tokyo_night.jpg",
+        "lat": "35.6762",
+        "lon": "139.6503"
+    }
+]
