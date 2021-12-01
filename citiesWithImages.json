@@ -3,8 +3,8 @@
         "country": "Australia",
         "image": "sydney.jpg",
         "night_image": "sydney_night.jpg",
-        "lat": "33.8688",
-        "lon": "151.2093"
+        "lat": "-33.8",
+        "lon": "151.2"
     },
     {
         "name": "New York City",
@@ -12,15 +12,15 @@
         "image": "new_york_city.jpg",
         "night_image": "new_york_city_night.jpeg",
         "lat": "40.7128",
-        "lon": "74.0060"
+        "lon": "-74.0060"
     },
     {
         "name": "Santiago",
         "country": "Chile",
         "image": "santiago.jpg",
         "night_image": "santiago_night.jpg",
-        "lat": "33.4489",
-        "lon": "70.6693"
+        "lat": "-33.4489",
+        "lon": "-70.6693"
     },
     {
         "name": "Paris",
@@ -37,5 +37,56 @@
         "night_image": "tokyo_night.jpg",
         "lat": "35.6762",
         "lon": "139.6503"
+    },
+    {
+        "name": "San Francisco",
+        "country": "United States",
+        "image": "san_francisco.jpg",
+        "night_image": "san_francisco_night.jpg",
+        "lat": "37.773972",
+        "lon": "-122.431297"
+    },
+    {
+        "name": "Bishkek",
+        "country": "Kyrgyzstan",
+        "image": "bishkek.jpg",
+        "night_image": "bishkek_night.jpg",
+        "lat": "42.8746",
+        "lon": "-74.5698"
+    },
+    {
+        "name": "Cape Town",
+        "country": "South Africa",
+        "image": "cape_town.jpg",
+        "night_image": "cape_town_night.jpg",
+        "lat": "-33.918861",
+        "lon": "18.423300"
+    },
+    {
+        "name": "Cairo",
+        "country": "Egypt",
+        "image": "cairo.jpg",
+        "night_image": "cairo_night.jpg",
+        "lat": "30.033333",
+        "lon": "31.233334"
+    },
+    {
+
+        "name": "Kathmandu",
+        "country": "Nepal",
+        "image": "kathmandu.jpg",
+        "night_image": "kathmandu_night.jpg",
+        "lat": "27.700769",
+        "lon": "85.300140"
+    },
+    {
+
+        "name": "Berlin",
+        "country": "Germany",
+        "image": "berlin.jpg",
+        "night_image": "berlin_night.jpg",
+        "lat": "52.520008",
+        "lon": "13.404954"
     }
+
 ]
