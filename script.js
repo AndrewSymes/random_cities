@@ -12,7 +12,7 @@ fetch("citiesWithImages.json")
         information.innerHTML += cities[cityIndex].name + ", " + cities[cityIndex].country + "  "
         document.body.style.backgroundImage = "url(images/" + cities[cityIndex].image + ")";
 
-        fetch("http://api.timezonedb.com/v2.1/get-time-zone?key=K4YO4O4ZMNM8&format=json&by=position&lat=" + cities[cityIndex].lat + "&lng=" + cities[cityIndex].lon).then(response => {
+        fetch("https://api.timezonedb.com/v2.1/get-time-zone?key=K4YO4O4ZMNM8&format=json&by=position&lat=" + cities[cityIndex].lat + "&lng=" + cities[cityIndex].lon).then(response => {
             response.json().then(json => {
                 console.log(json)
                 var datetime = json.formatted
