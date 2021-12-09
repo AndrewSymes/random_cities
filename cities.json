@@ -1,561 +1,129 @@
 [{
-        "name": "Hong Kong",
-        "country": "China"
-    },
-    {
-        "name": "Bangkok",
-        "country": "Thailand"
-    },
-    {
-        "name": "London",
-        "country": "United Kingdom"
-    },
-    {
-        "name": "Macau",
-        "country": "China"
-    },
-    {
-        "name": "Singapore",
-        "country": "SingaporeA"
-    },
-    {
-        "name": "Paris",
-        "country": "France"
-    },
-    {
-        "name": "Dubai",
-        "country": "United Arab Emirates"
+        "name": "Sydney",
+        "country": "Australia",
+        "image": "sydney.jpg",
+        "night_image": "sydney_night.jpg",
+        "lat": "-33.8",
+        "lon": "151.2"
     },
     {
         "name": "New York City",
-        "country": "United States"
+        "country": "United States",
+        "image": "new_york_city.jpg",
+        "night_image": "new_york_city_night.jpeg",
+        "lat": "40.7128",
+        "lon": "-74.0060"
     },
     {
-        "name": "Kuala Lumpur",
-        "country": "Malaysia"
+        "name": "Santiago",
+        "country": "Chile",
+        "image": "santiago.jpg",
+        "night_image": "santiago_night.jpg",
+        "lat": "-33.4489",
+        "lon": "-70.6693"
     },
     {
-        "name": "Istanbul",
-        "country": "Turkey"
-    },
-    {
-        "name": "Delhi",
-        "country": "India"
-    },
-    {
-        "name": "Antalya",
-        "country": "Turkey"
-    },
-    {
-        "name": "Shenzhen",
-        "country": "China"
-    },
-    {
-        "name": "Mumbai",
-        "country": "India"
-    },
-    {
-        "name": "Phuket",
-        "country": "Thailand"
-    },
-    {
-        "name": "Rome",
-        "country": "Italy"
+        "name": "Paris",
+        "country": "France",
+        "image": "paris.jpg",
+        "night_image": "paris_night.jpg",
+        "lat": "48.8566",
+        "lon": "2.3522"
     },
     {
         "name": "Tokyo",
-        "country": "Japan"
-    },
-    {
-        "name": "Pattaya",
-        "country": "Thailand"
-    },
-    {
-        "name": "Taipei",
-        "country": "Taiwan"
-    },
-    {
-        "name": "Mecca",
-        "country": "Saudi Arabia"
-    },
-    {
-        "name": "Guangzhou",
-        "country": "China"
-    },
-    {
-        "name": "Prague",
-        "country": "Czech Republic"
-    },
-    {
-        "name": "Medina",
-        "country": "Saudi Arabia"
-    },
-    {
-        "name": "Seoul",
-        "country": "South Korea"
-    },
-    {
-        "name": "Amsterdam",
-        "country": "Netherlands"
-    },
-    {
-        "name": "Agra",
-        "country": "India"
-    },
-    {
-        "name": "Miami",
-        "country": "United States"
-    },
-    {
-        "name": "Osaka",
-        "country": "Japan"
-    },
-    {
-        "name": "Las Vegas",
-        "country": "United States"
-    },
-    {
-        "name": "Shanghai",
-        "country": "China"
-    },
-    {
-        "name": "Ho Chi Minh City",
-        "country": "Vietnam"
-    },
-    {
-        "name": "Denpasar",
-        "country": "Indonesia"
-    },
-    {
-        "name": "Barcelona",
-        "country": "Spain"
-    },
-    {
-        "name": "Los Angeles",
-        "country": "United States"
-    },
-    {
-        "name": "Milan",
-        "country": "Italy"
-    },
-    {
-        "name": "Chennai",
-        "country": "India"
-    },
-    {
-        "name": "Vienna",
-        "country": "Austria"
-    },
-    {
-        "name": "Johor Bahru",
-        "country": "Malaysia"
-    },
-    {
-        "name": "Jaipur",
-        "country": "India"
-    },
-    {
-        "name": "Cancún",
-        "country": "Mexico"
-    },
-    {
-        "name": "Berlin",
-        "country": "Germany"
-    },
-    {
-        "name": "Cairo",
-        "country": "Egypt"
-    },
-    {
-        "name": "Athens",
-        "country": "Greece"
-    },
-    {
-        "name": "Orlando",
-        "country": "United States"
-    },
-    {
-        "name": "Moscow",
-        "country": "Russia"
-    },
-    {
-        "name": "Venice",
-        "country": "Italy"
-    },
-    {
-        "name": "Madrid",
-        "country": "Spain"
-    },
-    {
-        "name": "Ha Long",
-        "country": "Vietnam"
-    },
-    {
-        "name": "Riyadh",
-        "country": "Saudi Arabia"
-    },
-    {
-        "name": "Dublin",
-        "country": "Ireland"
-    },
-    {
-        "name": "Florence",
-        "country": "Italy"
-    },
-    {
-        "name": "Hanoi",
-        "country": "Vietnam"
-    },
-    {
-        "name": "Toronto",
-        "country": "Canada"
-    },
-    {
-        "name": "Johannesburg",
-        "country": "South Africa"
-    },
-    {
-        "name": "Sydney",
-        "country": "Australia"
-    },
-    {
-        "name": "Munich",
-        "country": "Germany"
-    },
-    {
-        "name": "Jakarta",
-        "country": "Indonesia"
-    },
-    {
-        "name": "Beijing",
-        "country": "China"
-    },
-    {
-        "name": "Saint Petersburg",
-        "country": "Russia"
-    },
-    {
-        "name": "Brussels",
-        "country": "Belgium"
-    },
-    {
-        "name": "Jerusalem",
-        "country": "Palestine  Israel"
-    },
-    {
-        "name": "Budapest",
-        "country": "Hungary"
-    },
-    {
-        "name": "Lisbon",
-        "country": "Portugal"
-    },
-    {
-        "name": "Dammam",
-        "country": "Saudi Arabia"
-    },
-    {
-        "name": "Penang Island",
-        "country": "Malaysia"
-    },
-    {
-        "name": "Heraklion",
-        "country": "Greece"
-    },
-    {
-        "name": "Kyoto",
-        "country": "Japan"
-    },
-    {
-        "name": "Zhuhai",
-        "country": "China"
-    },
-    {
-        "name": "Vancouver",
-        "country": "Canada"
-    },
-    {
-        "name": "Chiang Mai",
-        "country": "Thailand"
-    },
-    {
-        "name": "Copenhagen",
-        "country": "Denmark"
+        "country": "Japan",
+        "image": "tokyo.jpg",
+        "night_image": "tokyo_night.jpg",
+        "lat": "35.6762",
+        "lon": "139.6503"
     },
     {
         "name": "San Francisco",
-        "country": "United States"
+        "country": "United States",
+        "image": "san_francisco.jpg",
+        "night_image": "san_francisco_night.jpg",
+        "lat": "37.773972",
+        "lon": "-122.431297"
     },
     {
-        "name": "Melbourne",
-        "country": "Australia"
-    },
-    {
-        "name": "Warsaw",
-        "country": "Poland"
-    },
-    {
-        "name": "Marrakesh",
-        "country": "Morocco"
-    },
-    {
-        "name": "Kolkata",
-        "country": "India"
-    },
-    {
-        "name": "Cebu City",
-        "country": "Philippines"
-    },
-    {
-        "name": "Auckland",
-        "country": "New Zealand"
-    },
-    {
-        "name": "Tel Aviv",
-        "country": "Israel"
-    },
-    {
-        "name": "Guilin",
-        "country": "China"
-    },
-    {
-        "name": "Honolulu",
-        "country": "United States"
-    },
-    {
-        "name": "Hurghada",
-        "country": "Egypt"
-    },
-    {
-        "name": "Kraków",
-        "country": "Poland"
-    },
-    {
-        "name": "Muğla",
-        "country": "Turkey"
-    },
-    {
-        "name": "Buenos Aires",
-        "country": "Argentina"
-    },
-    {
-        "name": "Chiba",
-        "country": "Japan"
-    },
-    {
-        "name": "Frankfurt am Main",
-        "country": "Germany"
-    },
-    {
-        "name": "Stockholm",
-        "country": "Sweden"
-    },
-    {
-        "name": "Lima",
-        "country": "Peru"
-    },
-    {
-        "name": "Da Nang",
-        "country": "Vietnam"
-    },
-    {
-        "name": "Batam",
-        "country": "Indonesia"
-    },
-    {
-        "name": "Nice",
-        "country": "France"
-    },
-    {
-        "name": "Fukuoka",
-        "country": "Japan"
-    },
-    {
-        "name": "Abu Dhabi",
-        "country": "United Arab Emirates"
-    },
-    {
-        "name": "Jeju",
-        "country": "South Korea"
-    },
-    {
-        "name": "Porto",
-        "country": "Portugal"
-    },
-    {
-        "name": "Rhodes",
-        "country": "Greece"
-    },
-    {
-        "name": "Rio de Janeiro",
-        "country": "Brazil"
-    },
-    {
-        "name": "Krabi",
-        "country": "Thailand"
-    },
-    {
-        "name": "Bangalore",
-        "country": "India"
-    },
-    {
-        "name": "Mexico City",
-        "country": "Mexico"
-    },
-    {
-        "name": "Punta Cana",
-        "country": "Dominican Republic"
-    },
-    {
-        "name": "São Paulo",
-        "country": "Brazil"
-    },
-    {
-        "name": "Zürich",
-        "country": " Switzerland"
-    },
-    {
-        "name": "Montreal",
-        "country": "Canada"
-    },
-    {
-        "name": "Washington D.C.",
-        "country": "United States"
-    },
-    {
-        "name": "Chicago",
-        "country": "United States"
-    },
-    {
-        "name": "Düsseldorf",
-        "country": "Germany"
-    },
-    {
-        "name": "Boston",
-        "country": "United States"
-    },
-    {
-        "name": "Chengdu",
-        "country": "China"
-    },
-    {
-        "name": "Edinburgh",
-        "country": "United Kingdom"
-    },
-    {
-        "name": "San Jose",
-        "country": "United States"
-    },
-    {
-        "name": "Tehran",
-        "country": "Iran"
-    },
-    {
-        "name": "Houston",
-        "country": "United States"
-    },
-    {
-        "name": "Hamburg",
-        "country": "Germany"
+        "name": "Bishkek",
+        "country": "Kyrgyzstan",
+        "image": "bishkek.jpg",
+        "night_image": "bishkek_night.jpg",
+        "lat": "42.8746",
+        "lon": "74.5698"
     },
     {
         "name": "Cape Town",
-        "country": "South Africa"
+        "country": "South Africa",
+        "image": "cape_town.jpg",
+        "night_image": "cape_town_night.jpg",
+        "lat": "-33.918861",
+        "lon": "18.423300"
     },
     {
-        "name": "Manila",
-        "country": "Philippines"
+        "name": "Cairo",
+        "country": "Egypt",
+        "image": "cairo.jpg",
+        "night_image": "cairo_night.jpg",
+        "lat": "30.033333",
+        "lon": "31.233334"
     },
     {
-        "name": "Bogota",
-        "country": "Colombia"
+
+        "name": "Kathmandu",
+        "country": "Nepal",
+        "image": "kathmandu.jpg",
+        "night_image": "kathmandu_night.jpg",
+        "lat": "27.700769",
+        "lon": "85.300140"
     },
     {
-        "name": "Xi'an",
-        "country": "China"
+
+        "name": "Berlin",
+        "country": "Germany",
+        "image": "berlin.jpg",
+        "night_image": "berlin_night.jpg",
+        "lat": "52.520008",
+        "lon": "13.404954"
     },
     {
-        "name": "Beirut",
-        "country": "Lebanon"
+
+        "name": "Rio De Janeiro",
+        "country": "Brasil",
+        "image": "rio.jpg",
+        "night_image": "rio_night.jpg",
+        "lat": "-22.9068",
+        "lon": "-43.1729"
     },
     {
-        "name": "Geneva",
-        "country": " Switzerland"
+
+        "name": "Anchorage",
+        "country": "United States",
+        "image": "anchorage.jpg",
+        "night_image": "anchorage_night.jpg",
+        "lat": "61.2181",
+        "lon": "-149.9003"
     },
     {
-        "name": "Colombo",
-        "country": "Sri Lanka"
+
+        "name": "Mexico City",
+        "country": "Mexico",
+        "image": "mexico_city.jpg",
+        "night_image": "mexico_city_night.jpg",
+        "lat": "19.4326",
+        "lon": "-99.1332"
     },
     {
-        "name": "Xiamen",
-        "country": "China"
-    },
-    {
-        "name": "Bucharest",
-        "country": "Romania"
-    },
-    {
-        "name": "Casablanca",
-        "country": "Morocco"
-    },
-    {
-        "name": "Atlanta",
-        "country": "United States"
-    },
-    {
-        "name": "Sofia",
-        "country": "Bulgaria"
-    },
-    {
-        "name": "Dalian",
-        "country": "China"
-    },
-    {
-        "name": "Montevideo",
-        "country": "Uruguay"
-    },
-    {
-        "name": "Amman",
-        "country": "Jordan"
-    },
-    {
-        "name": "Hangzhou",
-        "country": "China"
-    },
-    {
-        "name": "Pune",
-        "country": "India"
-    },
-    {
-        "name": "Durban",
-        "country": "South Africa"
-    },
-    {
-        "name": "Dallas",
-        "country": "United States"
-    },
-    {
-        "name": "Accra",
-        "country": "Ghana"
-    },
-    {
-        "name": "Quito",
-        "country": "Ecuador"
-    },
-    {
-        "name": "Tianjin",
-        "country": "China"
-    },
-    {
-        "name": "Qingdao",
-        "country": "China"
-    },
-    {
-        "name": "Philadelphia",
-        "country": "United States"
-    },
-    {
-        "name": "Lagos",
-        "country": "Nigeria"
+
+        "name": "Agra",
+        "country": "India",
+        "image": "agra.jpg",
+        "night_image": "agra_night.jpg",
+        "lat": "27.1767",
+        "lon": "78.0081"
     }
+
+
 ]

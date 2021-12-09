@@ -12,26 +12,36 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-xxl navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">primary</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID" aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarID">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-
+    <div id="container">
+        <nav class="navbar navbar-expand-xxl navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/globe-icon.png" width="40px" height="40px" alt="globe-icon"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID" aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarID">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Random Cites</a>
+                        <a class="nav-link active" aria-current="page" href="#">My Location</a>
+                    </div>
                 </div>
             </div>
+        </nav>
+        <div id="image-container">
+            <img src="" alt="background-image" id="background-image">
+            <div id="detail-container">
+                <p class="information" id="city"></p>
+                <p class="information" id="local-time"></p>
+                <p class="information" id="weather"></p>
+            </div>
         </div>
-    </nav>
-    <div id="detail-container">
-        <h1 class="information" id="city"></h1>
-        <h1 class="information" id="local-time"></h1>
-        <h1 class="information" id="weather"></h1>
+        <footer>
+            <div class="text-center text-dark p-3">
+                <a class="text-dark" href="https://github.com/AndrewSymes/random_cities">GitHub</a>
+                <p>Copyright: Andrew Symes © 2021</p>
+            </div>
+        </footer>
     </div>
-
     <script src="script.js"></script>
 </body>
 
