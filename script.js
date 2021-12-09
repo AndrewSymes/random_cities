@@ -7,6 +7,7 @@ fetch("citiesWithImages.json")
     .then(response => response.json())
     .then(cities => {
         var cityIndex = Math.floor(Math.random() * cities.length)
+            // cityIndex = 14
         city.innerHTML = cities[cityIndex].name + ", " + cities[cityIndex].country + "  "
 
         fetch("https://api.timezonedb.com/v2.1/get-time-zone?key=K4YO4O4ZMNM8&format=json&by=position&lat=" + cities[cityIndex].lat + "&lng=" + cities[cityIndex].lon).then(response => {
@@ -22,7 +23,7 @@ fetch("citiesWithImages.json")
                         var sr = parseInt(weatherData.data[0].sunrise.replace(":", ""))
                         var ss = parseInt(weatherData.data[0].sunset.replace(":", ""))
                         var ct = parseInt("" + gmt0.getHours() + gmt0.getMinutes())
-
+                        console.log(weatherData)
                         if ((sr < ct && ct < ss && sr < ss) || ((sr < ct || ct < ss) && sr > ss)) {
                             document.body.style.backgroundImage = "url(images/" + cities[cityIndex].image + ")";
                         } else {

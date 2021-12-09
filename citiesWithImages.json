@@ -87,6 +87,43 @@
         "night_image": "berlin_night.jpg",
         "lat": "52.520008",
         "lon": "13.404954"
+    },
+    {
+
+        "name": "Rio De Janeiro",
+        "country": "Brasil",
+        "image": "rio.jpg",
+        "night_image": "rio_night.jpg",
+        "lat": "-22.9068",
+        "lon": "-43.1729"
+    },
+    {
+
+        "name": "Anchorage",
+        "country": "United States",
+        "image": "anchorage.jpg",
+        "night_image": "anchorage_night.jpg",
+        "lat": "61.2181",
+        "lon": "-149.9003"
+    },
+    {
+
+        "name": "Mexico City",
+        "country": "Mexico",
+        "image": "mexico_city.jpg",
+        "night_image": "mexico_city_night.jpg",
+        "lat": "19.4326",
+        "lon": "-99.1332"
+    },
+    {
+
+        "name": "Agra",
+        "country": "India",
+        "image": "agra.jpg",
+        "night_image": "agra_night.jpg",
+        "lat": "27.1767",
+        "lon": "78.0081"
     }
+
 
 ]
