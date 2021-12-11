@@ -10,13 +10,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <style>
-        footer {
-            /* position: absolute;
-            bottom: 0; */
-            width: 100%;
-        }
-    </style>
 </head>
 
 <body>
@@ -30,32 +23,19 @@
                 <div class="collapse navbar-collapse" id="navbarID">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        <a class="nav-link active" aria-current="page" href="cityPage.html#randomize=true">Random City</a>
-                        <a class="nav-link active" aria-current="page" href="cityPage.html#?local=true">My Location</a>
+                        <a class="nav-link active" aria-current="page" href="random.html#?random=true">Random City</a>
+                        <a class="nav-link active" aria-current="page" href="local.html#?local=true">My Location</a>
                         <a class="nav-link active" aria-current="page" href="map.html">Map</a>
                     </div>
                 </div>
             </div>
         </nav>
-        <div id="home-container">
-            <div id="content-container">
-
-                <div>
-                    <p>Get a taste of what it would be like to be in a
-                        <a href="cityPage.html#randomize=true">Random City</a>
-                    </p>
-                    <img src="images/dice.jpg" alt="">
-                </div>
-                <div>
-                    <p>Get a cool view of your
-                        <a href="cityPage.html#?local=true">Local Conditions</a>
-                    </p>
-                    <img src="images/local.jpg" alt="" width="300">
-                </div>
-                <div>
-                    <p>Browse the <a href="map.html">Map</a> and click on any city to experience what it would be like to be there</p>
-                    <img src="images/map.png" alt="map" width="300">
-                </div>
+        <div id="image-container">
+            <img src="" alt="" id="background-image">
+            <div id="detail-container">
+                <p class="information" id="city"></p>
+                <p class="information" id="local-time"></p>
+                <p class="information" id="weather"></p>
             </div>
         </div>
         <footer>
@@ -65,6 +45,7 @@
             </div>
         </footer>
     </div>
+    <script src="cityPage.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.mapboxgl-marker:hover {
+    cursor: pointer;
+}
+
+.city-mark-label {
+    background-color: white;
+    position: absolute;
+    white-space: nowrap;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-close-button {
+    display: none;
+}
+
+nav {
+    z-index: 2;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
