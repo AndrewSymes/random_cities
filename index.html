@@ -1,70 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Everywhere</title>
-    <link rel="icon" href="images/globe-icon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        footer {
-            /* position: absolute;
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Everywhere</title>
+        <link rel="icon" href="images/globe-icon.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            footer {
+                /* position: absolute;
             bottom: 0; */
-            width: 100%;
-        }
-    </style>
-</head>
+                width: 100%;
+            }
+        </style>
+    </head>
 
-<body>
-    <div id="container">
-        <nav class="navbar navbar-expand-xxl navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="images/globe-icon.png" width="40px" height="40px" alt="globe-icon"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID" aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+    <body>
+        <div id="container">
+            <nav class="navbar navbar-expand-xxl navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="images/globe-icon.png" width="40px" height="40px" alt="globe-icon"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID" aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                <div class="collapse navbar-collapse" id="navbarID">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        <a class="nav-link active" aria-current="page" href="cityPage.html#randomize=true">Random City</a>
-                        <a class="nav-link active" aria-current="page" href="cityPage.html#?local=true">My Location</a>
-                        <a class="nav-link active" aria-current="page" href="map.html">Map</a>
+                    <div class="collapse navbar-collapse" id="navbarID">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="cityPage.html#randomize=true">Random City</a>
+                            <a class="nav-link active" aria-current="page" href="cityPage.html#?local=true">My Location</a>
+                            <a class="nav-link active" aria-current="page" href="map.html">Map</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="home-container">
+                <div id="content-container">
+
+                    <div>
+                        <p>Get a taste of what it would be like to be in a
+                            <a href="cityPage.html#randomize=true">Random City</a>
+                        </p>
+                        <img src="images/dice.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Get a cool view of your
+                            <a href="cityPage.html#?local=true">Local Conditions</a>
+                        </p>
+                        <img src="images/local.jpg" alt="" width="300">
+                    </div>
+                    <div>
+                        <p>Browse the <a href="map.html">Map</a> and click on any city</p>
+                        <img src="images/map.png" alt="map" width="300">
                     </div>
                 </div>
             </div>
-        </nav>
-        <div id="home-container">
-            <div id="content-container">
-
-                <div>
-                    <p>Get a taste of what it would be like to be in a
-                        <a href="cityPage.html#randomize=true">Random City</a>
-                    </p>
-                    <img src="images/dice.jpg" alt="">
+            <footer>
+                <div class="text-center text-dark p-3">
+                    <a class="text-dark" href="https://github.com/AndrewSymes/random_cities">GitHub</a>
+                    <p>Copyright: Andrew Symes © 2021</p>
                 </div>
-                <div>
-                    <p>Get a cool view of your
-                        <a href="cityPage.html#?local=true">Local Conditions</a>
-                    </p>
-                    <img src="images/local.jpg" alt="" width="300">
-                </div>
-                <div>
-                    <p>Browse the <a href="map.html">Map</a> and click on any city to experience what it would be like to be there</p>
-                    <img src="images/map.png" alt="map" width="300">
-                </div>
-            </div>
+            </footer>
         </div>
-        <footer>
-            <div class="text-center text-dark p-3">
-                <a class="text-dark" href="https://github.com/AndrewSymes/random_cities">GitHub</a>
-                <p>Copyright: Andrew Symes © 2021</p>
-            </div>
-        </footer>
-    </div>
-</body>
+    </body>
 
 </html>

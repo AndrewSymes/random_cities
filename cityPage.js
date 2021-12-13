@@ -94,7 +94,8 @@ function update() {
                     } else {
                         backgroundImage.src = "images/" + city.night_image
                     }
-                    weather.innerHTML = weatherData.data[0].temp + "C " + weatherData.data[0].weather.description
+                    var temp = parseInt(weatherData.data[0].temp)
+                    weather.innerHTML = Math.round((temp * 9 / 5) + 32) + "°F " + weatherData.data[0].weather.description
                 })
             }).catch(err => {
                 console.error(err);
