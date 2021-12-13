@@ -21,15 +21,14 @@ body {
     height: 100%;
     width: 50%;
     background-color: whitesmoke;
-    font-size: 200%;
+    font-size: 180%;
     display: flex;
     flex-flow: column;
     justify-content: space-around;
 }
 
 #content-container div {
-    height: 20%;
-    min-width: 100px;
+    height: 25%;
     background-color: rgb(197, 209, 216);
     background-color: lightgray;
     display: flex;
@@ -96,11 +95,16 @@ footer div {
     .information {
         font-size: 100%;
     }
+    #content-container {
+        font-size: 150%;
+        width: 75%;
+    }
 }
 
 @media (max-width: 600px) {
     #content-container {
-        width: 100%;
+        <<<<<<< HEAD=======font-size: 110%;
+        >>>>>>>39803382c5b8762d31fc99c69fa1f1077ca404de width: 100%;
     }
     .information {
         text-align: center;
