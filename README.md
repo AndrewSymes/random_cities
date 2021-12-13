@@ -2,6 +2,8 @@ https://andrewsymes.github.io/random_cities/
 
 
 **User Stories**
+
+
 As Max, 
 I want to see the local conditions of a random city, 
 so I can 
