@@ -1,7 +1,9 @@
 let cityElement = document.getElementById("city")
-let localTime = document.getElementById("local-time")
-let weather = document.getElementById("weather")
+let localTimeElement = document.getElementById("local-time")
+let tempElement = document.getElementById("temp")
+let weatherElement = document.getElementById("weather")
 let backgroundImage = document.getElementById("background-image")
+
 let city = {
     "name": "",
     "country": "",
@@ -61,7 +63,7 @@ function updateTime() {
     fetch("https://api.timezonedb.com/v2.1/get-time-zone?key=K4YO4O4ZMNM8&format=json&by=position&lat=" + city.lat + "&lng=" + city.lon).then(response => {
         response.json().then(timeData => {
             var datetime = timeData.formatted.substr(10, 6)
-            localTime.innerHTML = datetime
+            localTimeElement.innerHTML = datetime
         })
     }).catch(err => {
         console.error(err);
@@ -72,7 +74,7 @@ function update() {
     fetch("https://api.timezonedb.com/v2.1/get-time-zone?key=K4YO4O4ZMNM8&format=json&by=position&lat=" + city.lat + "&lng=" + city.lon).then(response => {
         response.json().then(timeData => {
             var datetime = timeData.formatted.substr(10, 6)
-            localTime.innerHTML = datetime
+            localTimeElement.innerHTML = datetime
 
             var gmt0 = new Date(timeData.formatted)
             gmt0.setSeconds(gmt0.getMinutes() - parseInt(timeData.gmtOffset))
@@ -94,7 +96,25 @@ function update() {
                     } else {
                         backgroundImage.src = "images/" + city.night_image
                     }
-                    weather.innerHTML = weatherData.data[0].temp + "C " + weatherData.data[0].weather.description
+
+
+                    var flip = true
+                    var temp = weatherData.data[0].temp
+                    setTemp()
+                    tempElement.addEventListener("click", setTemp)
+
+                    function setTemp() {
+                        if (!flip) {
+                            tempElement.innerHTML = temp + "°C"
+                            flip = true
+                        } else {
+                            tempElement.innerHTML = Math.round((temp * 9 / 5) + 32) + "°F"
+                            flip = false
+                        }
+                    }
+
+
+                    weatherElement.innerHTML = weatherData.data[0].weather.description
                 })
             }).catch(err => {
                 console.error(err);

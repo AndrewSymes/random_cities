@@ -83,6 +83,10 @@ footer div {
     margin: 15px;
 }
 
+#temp:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 1200px) {
     .information {
         font-size: 200%;
@@ -92,6 +96,8 @@ footer div {
 @media (max-width: 600px) {
     .information {
         text-align: center;
+        margin: 0;
+        padding: 0;
     }
     #detail-container {
         flex-direction: column;
