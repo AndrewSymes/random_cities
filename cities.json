@@ -123,6 +123,87 @@
         "night_image": "agra_night.jpg",
         "lat": "27.1767",
         "lon": "78.0081"
+    },
+    {
+
+        "name": "Baku",
+        "country": "Azerbaijan",
+        "image": "Baku.jpg",
+        "night_image": "Baku_night.jpg",
+        "lat": "40.4093",
+        "lon": "49.8671"
+    },
+    {
+
+        "name": "Cúcuta",
+        "country": "Colombia",
+        "image": "cucuta.jpg",
+        "night_image": "cucuta_night.jpg",
+        "lat": "7.8891",
+        "lon": "-72.4967"
+    },
+    {
+
+        "name": "Honalulu",
+        "country": "United States",
+        "image": "honalulu.jpg",
+        "night_image": "honalulu_night.jpg",
+        "lat": "21.3069",
+        "lon": "-157.8583"
+    },
+    {
+
+        "name": "Dallas",
+        "country": "United States",
+        "image": "dallas.jpg",
+        "night_image": "dallas_night.jpg",
+        "lat": "32.7767",
+        "lon": "-96.7970"
+    },
+    {
+
+        "name": "Singapore",
+        "country": "Malaysia",
+        "image": "singapore.jpg",
+        "night_image": "singapore_night.jpg",
+        "lat": "1.3521",
+        "lon": "103.8198"
+    },
+    {
+
+        "name": "Istanbul",
+        "country": "Turkey",
+        "image": "istanbul.jpg",
+        "night_image": "istanbul_night.jpg",
+        "lat": "41.0082",
+        "lon": "28.9784"
+    },
+    {
+
+        "name": "Moscow",
+        "country": "Russia",
+        "image": "moscow.jpg",
+        "night_image": "moscow_night.jpg",
+        "lat": "55.7558",
+        "lon": "37.6173"
+    },
+    {
+
+        "name": "Lagos",
+        "country": "Nigeria",
+        "image": "lagos.jpg",
+        "night_image": "lagos_night.jpg",
+        "lat": "6.5244",
+        "lon": "3.3792"
+    },
+    {
+
+        "name": "Seoul",
+        "country": "Korea",
+        "image": "seoul.jpg",
+        "night_image": "seoul_night.jpg",
+        "lat": "37.5665",
+        "lon": "126.9780"
     }
 
 
