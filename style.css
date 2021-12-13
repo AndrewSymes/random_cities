@@ -29,6 +29,7 @@ body {
 
 #content-container div {
     height: 20%;
+    min-width: 100px;
     background-color: rgb(197, 209, 216);
     background-color: lightgray;
     display: flex;
@@ -88,12 +89,19 @@ footer div {
 }
 
 @media (max-width: 1200px) {
+    #content-container {
+        width: 75%;
+        font-size: 150%;
+    }
     .information {
-        font-size: 200%;
+        font-size: 100%;
     }
 }
 
 @media (max-width: 600px) {
+    #content-container {
+        width: 100%;
+    }
     .information {
         text-align: center;
         margin: 0;
