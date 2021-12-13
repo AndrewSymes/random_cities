@@ -103,8 +103,8 @@ footer div {
 
 @media (max-width: 600px) {
     #content-container {
-        <<<<<<< HEAD=======font-size: 110%;
-        >>>>>>>39803382c5b8762d31fc99c69fa1f1077ca404de width: 100%;
+        font-size: 110%;
+        width: 100%;
     }
     .information {
         text-align: center;
