@@ -87,6 +87,7 @@ function update() {
                     }
                     cityElement.innerHTML = city.name + ", " + city.country
 
+                    // Establish Sunrise time, Sunset time and Current time as variables
                     var sr = parseInt(weatherData.data[0].sunrise.replace(":", ""))
                     var ss = parseInt(weatherData.data[0].sunset.replace(":", ""))
                     var ct = parseInt("" + gmt0.getHours() + gmt0.getMinutes())
