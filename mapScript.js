@@ -10,13 +10,13 @@ map.on('load', () => {
     fetch("cities.json")
         .then(response => response.json())
         .then(cities => {
-            for (city in cities) {
+            for (cityIndex in cities) {
 
                 var mark = new mapboxgl.Marker()
-                    .setLngLat([cities[city].lon, cities[city].lat])
+                    .setLngLat([cities[cityIndex].lon, cities[cityIndex].lat])
                     .addTo(map)
                 var label = document.createElement("p")
-                label.innerHTML = cities[city].name
+                label.innerHTML = cities[cityIndex].name
                 label.classList.add("city-mark-label")
                 mark.getElement().append(label)
                 mark.getElement().addEventListener('click', function(index) {
@@ -25,7 +25,7 @@ map.on('load', () => {
                         window.event.cancelBubble = true
                         window.location.href = "cityPage.html#?cityIndex=" + index;
                     };
-                }(city));
+                }(cityIndex));
             }
         }).catch(err => {
             console.error(err);
