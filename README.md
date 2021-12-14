@@ -12,9 +12,9 @@ imagine what it would like to be there.
 As Sascha, 
 I want to view a simple summary of my local weather conditions, 
 so I can 
-get and idea of what the weather is like outside. 
+get an idea of what the weather is like outside. 
 
-As a Andrew, 
+As Andrew, 
 I want to view a map and click on cities, 
 so I can 
 imagine what it would like to be somewhere else. 
